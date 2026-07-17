@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+._*
+*.log
+*.dump
+*.backup
+*.sql.gz
+Envanter Uygulamasi Baslat.command
+launch-envanter.applescript
+README.rtf

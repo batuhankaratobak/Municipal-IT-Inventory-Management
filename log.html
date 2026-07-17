@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Kayıtları</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Log Kayıtları</h2>
+        <button class="btn btn-primary" onclick="window.location.href='dashboard.html'">Geri Dön</button>
+        <hr>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>İşlem Türü</th>
+                    <th>İşlemi Yapan</th>
+                    <th>Değişen Bölüm</th>
+                    <th>Ürün ID</th>
+                    <th>Tarih</th>
+                    <th>Önceki Veri</th>
+                    <th>Yeni Veri</th>
+                </tr>
+            </thead>
+            <tbody id="logTable"></tbody>
+        </table>
+    </div>
+    <script src="log.js"></script>
+</body>
+</html>
